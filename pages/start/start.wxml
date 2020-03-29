@@ -1,0 +1,4 @@
+<view>
+规则页面：
+<button bindtap="goindex" type="primary">开始</button>
+</view>

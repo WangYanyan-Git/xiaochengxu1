@@ -1,0 +1,24 @@
+.inputs{
+ margin: 30rpx 0;
+}
+.inputs input{
+  width: 100rpx;
+  height: 100rpx;
+  background: #ddd;
+  float: left;
+  margin-left: 10rpx;
+}
+.viewlist{
+  margin: 30rpx;
+  padding: 30rpx;
+  border: 2rpx solid #ddd;
+}
+.viewlist view{
+   width: 150rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  background: #ddd;
+   float: left;
+   margin: 5rpx;
+   text-align: center;
+}
