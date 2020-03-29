@@ -1,10 +1,12 @@
 <view class="container">
   <!--音频-->
+  <view>123</view>
   <audio src="https://7765-web36-gkc6x-1300893281.tcb.qcloud.la/2019.12.11.19.51.mp4?sign=97a8227d5acd330c371d0574e4e00cf9&t=1576142018" id="myAudio" controls loop></audio>
   <!--点击歌名-->
   <view class="inputs">
     <input value="{{tapsname[index]}}" wx:for="{{songs[sindex].songname.length}}" id="{{index}}" disabled bindtap="tapinput" />
   </view>
+
   <!--汉字列表-->
   <view class="viewlist">
     <view id="{{item}}" bindtap="tapview" wx:for="{{songs[sindex].sonkey}}">
